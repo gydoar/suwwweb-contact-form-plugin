@@ -40,7 +40,7 @@ class suwwweb_contact_form {
 		echo '</form>';
     }
 
-    public function validate_form( $name, $email, $telefono, $message ) {
+    public function validate_form( $name, $email, $telefono) {
     	
         // If any field is left empty, add the error message to the error array
         if ( empty($name) || empty($email) || empty($telefono) ) {
